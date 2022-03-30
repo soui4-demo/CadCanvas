@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <line x1="0" y1="0" x2="100" y2="100"/>
+  <line x1="0" y1="0" x2="100" y2="10"/>
+  <line x1="0" y1="0" x2="10" y2="100"/>
+
+  <text x="-100" y="0" text="hello"/>
+  <text x="-100" y="0" text="hello2" offset="0,100" rotate="90"/>
+  <arc x="0" y="10" radius="50" startAngle="0" endAngle="180"/>
+  <arc x="100" y="100" radius="50" startAngle="90" endAngle="240"/>
+  <arc x="-50" y="10" radius="50" startAngle="220" endAngle="340"/>
+  <arc x="0" y="0" radius="50" startAngle="450" endAngle="260"/>
+</elements>

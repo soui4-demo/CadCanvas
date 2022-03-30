@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+	<imglist name="skin_icons" src="img:icons" states="22" alpha="100" />
+	<imglist name="SKIN_MENU_BTN" src="IMG:tab_left_png" states="3" />
+</skin>

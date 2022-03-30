@@ -1,0 +1,6 @@
+﻿<menu iconSkin="" itemHeight="26" iconMargin="4" textMargin="8" maxWidth="120">
+	<item id="11">项目</item>
+	<item id="13">测试</item>
+	<sep/>
+	<item id="12">退出(&X)</item>
+</menu>

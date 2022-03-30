@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<SOUI name="mainWindow" title="@string/title" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" margin="5,5,5,5" resizable="1" wndType="appMain" appWnd="1" translucent="1" sendWheel2Hover="1">
+	<root skin="_skin.sys.wnd.bkgnd" cache="1" width="600" height="400">
+		<caption pos="0,0,-0,30" show="1" font="adding:0">
+			<icon pos="10,8" src="ICON_LOGO:16" />
+			<text pos="29,9">@string/title</text>
+			<imgbtn name="btn_close" skin="_skin.sys.btn.close" pos="-45,0" tip="close" animate="1" />
+			<imgbtn name="btn_max" skin="_skin.sys.btn.maximize" pos="-83,0" animate="1" />
+			<imgbtn name="btn_restore" skin="_skin.sys.btn.restore" pos="-83,0" show="0" animate="1" />
+			<imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-121,0" animate="1" />
+		</caption>
+		<window pos="5,[2,-5,-5" layout="vbox">
+			<window size="-2,-1" layout="hbox" interval="5">
+				<!--tool bar-->
+        <button size="80,30" name="btn_loaddxf" text="load_dxf" />
+        <button size="80,30" name="btn_load_file" text="load_xml" />
+				<button size="80,30" name="btn_save_file" text="save file" />
+				<button size="80,30" name="btn_zoomin" text="zoomin" />
+				<button size="80,30" name="btn_zoomout" text="zoomout" />
+				<button size="80,30" name="btn_zoomfit" text="zoomfit" />
+			</window>
+			<window size="-2,0" weight="1" layout="hbox" interval="5">
+				<cadCanvas size="-2,-2" name="cc_test" font="size:30" iconSkin="skin_icons" colorBkgnd="rgb(0,255,255)" />
+			</window>
+		</window>
+	</root>
+</SOUI>
