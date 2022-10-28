@@ -18,6 +18,8 @@ using namespace std;
 #include "Objects/YJPoint.h"
 #include "Objects/Circle.h"
 #include "Objects/ARC.h"
+
+#define kLogTag "cadcanvas"
 namespace SOUI
 {
 	static const int kMinVisibleTextSize=10;
@@ -546,7 +548,7 @@ namespace SOUI
 	void SCadCanvas::OnKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags)
 	{
 		SWindow::OnGetDlgCode();
-		SLOG_INFO("OnKeyDown, nChar="<<nChar);
+		SLOGI()<<"OnKeyDown, nChar="<<nChar;
 		if(nChar == VK_DELETE)
 		{//delete
 			//遍历当前已选中的对象，将其设置为删除
